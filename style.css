@@ -1,0 +1,79 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color:black;
+    color: black;
+}
+
+/* Header and Navigation */
+header {
+    background: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.hero {
+    background: #01070d;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Influencer Cards */
+.influencer-card {
+    display: inline-block;
+    background-color: #120101;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.influencer-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.influencer-card h3 {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
